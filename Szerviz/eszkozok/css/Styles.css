@@ -1,0 +1,181 @@
+body 
+{
+	background-color: rgb(40,45,50);
+}
+.header 
+{ 
+	color: white;  
+	font-family: arial;  
+	width: 100%; 
+	font-size:2.5vw; 
+	text-align:center; 
+	font-weight: bold;
+	vertical-align: center;
+}
+.navigacio 
+{
+	list-style-type: none;
+	padding: 0vw;
+	margin-bottom: 0vw;
+	overflow: hidden;
+	background-color: rgb(198,210,222);
+	width: 100%;
+}
+
+.navigacio li 
+{
+	float: left;
+}
+
+.navigacio li a 
+{
+	display: block;
+	color: rgb(40,45,50);
+	text-align: center;
+	padding: 1.5vw;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 1.6vw;
+}
+.navigacio li a:visited 
+{
+	text-decoration:none;
+	color: rgb(40,45,50);
+}
+.navigacio li a:hover
+{
+	background-color: rgb(190,200,220);
+	text-decoration: none;
+}
+.szetoszt{
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.navigacio .bejmenu
+{
+	float:right;
+} 
+.kezdolap
+{
+	color: white;
+	font-family: arial;
+}
+.kezdolap p
+{
+	font-size: 1.2vw;
+	max-width: 1000px;
+
+}
+.kezdolap h1
+{
+	text-align: center;
+	font-size: 2.5vw;
+}
+.kezdolap img
+{
+	width: 800px;
+}
+.forum
+{
+	color:white;
+	font-family: arial;
+}
+.forum h1
+{
+	font-size: 2.5vw;
+	text-align:center;
+	font-weight: bold;
+	color: white;
+}
+.forum-bej
+{
+	color: white;
+}
+.bejegyzes table
+{
+	background-color: rgb(198,210,222);
+	width:60%;
+	font-size: 1.8vw;
+	border-radius: 1vw;
+	border: 4vw solid black;
+}
+.bejegyzes table
+{
+	border:0.2vw solid black;
+	font-family: arial;
+}
+.bejegyzes-nev td
+{
+	border-bottom:0.15vw solid black;
+}
+.bejegyzes-szoveg td
+{
+	border-bottom:0.15vw solid black;
+}
+.bejegyzes-komment td
+{
+	border-bottom:0.15vw solid black;
+}
+.bejegyzes p
+{
+	text-align: left;
+}
+.Forum 
+{
+	text-align: center;
+}
+.Forum h1
+{
+	font-size: 3vw;
+}
+.bejir
+{
+	border:0.3vw solid black;
+	font-family: arial; 
+	color: black;
+	border-radius: 10px;
+	background-color: rgb(198,210,222);	
+	max-width: 100%;
+}
+.szovegdoboz
+{
+	border:0.1vw solid black;
+	min-width: 98%;	
+	border-radius: 10px;
+	padding: 8px;
+	margin: 0px 2px 5px 2px;
+}
+.bejir button
+{
+	margin-left: 0.5vw;
+	margin-bottom: 0.7vh;
+}
+.admintabla td, th
+{
+	border:0.2vw solid black;
+}
+.adminpan
+{
+	margin-top: 5vh;
+	background-color: rgb(198,210,222);
+}
+.kommentszoveg
+{
+	min-width: 60vw;
+	min-height: 5vh;
+	font-size: 1vw;
+	border: 1px solid black;
+	border-radius: 0.6vw;
+	padding: 0.6vw;
+	margin-bottom: 0.1vh;
+}
+.komgomb
+{
+	margin-top: 1vh;
+	margin-bottom: -1.5vh;
+	margin-left: 0.5vw;
+}

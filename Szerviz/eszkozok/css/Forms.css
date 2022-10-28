@@ -1,0 +1,80 @@
+.formok {
+  height: 100vh;
+  background-color: rgb(40,45,50);
+  background-size: cover;
+  position: initial;
+}
+
+.formok form {
+  width: 30vw;
+  background-color: rgb(8,21,34);
+  padding: 3vw;
+  border-radius: 2vw;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: #fff;
+  box-shadow: 0.3vw 0.3vw 0.4vw rgba(0,0,0,0.2)
+}
+.formok h1
+{
+	text-align:center;
+}
+.formok form .form-belso {
+  background: none;
+  border: none;
+  border-bottom: 0.2vw solid #434a52;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  margin-bottom: 3vh;
+  font-size: 1.3rem;
+  font-family: arial;
+}
+
+.formok form .button {
+  background: #214a80;
+  border: none;
+  border-radius: 0.4vw;
+  padding: 1.1vw;
+  box-shadow: none;
+  margin-top: 2.6vh;
+  text-shadow: none;
+  outline: none;
+  color: white;
+  font-size: 1vw;
+}
+
+.formok form .button:hover, .formok form .button:active {
+  background: #214a80;
+  outline: none;
+}
+
+.formok form .regisztracio {
+  display: block;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+  color: rgb(33,74,128);
+  margin-top:2vw;
+}
+
+.formok form .regisztracio:hover, .formok form .regisztracio:active {
+  opacity: 1;
+  text-decoration: none;
+}
+.formok form .button:active, .button:hover {
+  transform: translateY(1px);
+}
+.form-kulso
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+

@@ -1,0 +1,70 @@
+.login-dark {
+  height: 40vw;
+  background-color: rgb(40,45,50);
+  background-size: cover;
+  position: initial;
+}
+
+.login-dark form {
+  max-width: 20vw;
+  background-color: rgb(8,21,34);
+  padding: 3vw;
+  border-radius: 2vw;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  color: #fff;
+  box-shadow: 0.3vw 0.3vw 0.4vw rgba(0,0,0,0.2)
+}
+.login-dark h1
+{
+	text-align:center;
+}
+.login-dark form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 0.2vw solid #434a52;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  position: absolute;
+}
+
+.login-dark form .button {
+  background: #214a80;
+  border: none;
+  border-radius: 0.4vw;
+  padding: 1.1vw;
+  box-shadow: none;
+  margin-top: 2.6vw;
+  text-shadow: none;
+  outline: none;
+}
+
+.login-dark form .button:hover, .login-dark form .button:active {
+  background: #214a80;
+  outline: none;
+}
+
+.login-dark form .regisztracio {
+  display: block;
+  text-align: center;
+  font-size: 1.2vw;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+  color: rgb(33,74,128);
+  margin-top:2vw;
+}
+
+.login-dark form .regisztracio:hover, .login-dark form .regisztracio:active {
+  opacity: 1;
+  text-decoration: none;
+}
+.login-dark form .button:active {
+  transform: translateY(1px);
+}
+
+

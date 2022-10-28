@@ -1,0 +1,91 @@
+body {
+	background-color: rgb(40,45,50);
+	}
+.header 
+{ 
+	color: white;  
+	font-family: arial;  
+	width: 100%; 
+	font-size:2.5vw; 
+	text-align:center; 
+	height: 10vw;
+	font-weight: bold;
+}
+
+ul 
+{
+	list-style-type: none;
+	padding: 0vw;
+	margin-bottom: 0vw;
+	overflow: hidden;
+	background-color: rgb(198,210,222);
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: rgb(40,45,50);
+	text-align: center;
+	padding: 1.5vw;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 1.6vw;
+}
+li a:visited 
+{
+	text-decoration:none;
+	color: rgb(40,45,50);
+}
+li a:hover
+{
+	background-color: rgb(190,200,220);
+	text-decoration: none;
+}
+
+.login
+{
+	float:right;
+}  
+.kezdolap, kezdolap p
+{
+	color: white;
+}
+.forum
+{
+	color:white;
+	font-family: arial;
+}
+.forum h1
+{
+	font-size: 2.5vw;
+	text-align:center;
+	font-weight: bold;
+}
+.bejegyzes table
+{
+	background-color: rgb(198,210,222);
+	width:40%;
+	font-size: 1.8vw;
+	border-radius: 1vw;
+	border: 4vw solid black;
+}
+.bejegyzes table
+{
+	border:0.2vw solid black;
+}
+.bejegyzes-nev td
+{
+	border-bottom:0.15vw solid black;
+}
+.bejegyzes-szoveg td
+{
+	border-bottom:0.15vw solid black;
+}
+.bejegyzes-komment td
+{
+	
+}
